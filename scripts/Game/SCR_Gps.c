@@ -13,6 +13,12 @@ class SCR_Gps : ScriptComponent
 	// Map Instance
 	protected SCR_MapEntity m_MapEntity = null;
 	
+	override void OnPostInit(IEntity owner)
+	{
+		super.OnPostInit(owner);
+		SetEventMask(owner, EntityEvent.INIT);
+	}
+	
 	// When the script initializes
 	override void EOnInit(IEntity owner)
 	{
@@ -34,10 +40,22 @@ class SCR_Gps : ScriptComponent
 	protected void OnMapOpen(MapConfiguration config)
 	{
 		Print("SCR_Gps: The map was opened");
+		
+		IEntity owner = GetOwner();
+		if (!owner)
+			return;
+		
+		SetEventMask(owner, EntityEvent.FRAME);
 	}
 	
 	protected void OnMapClose(MapConfiguration config)
 	{
 		Print("SCR_Gps: The map was closed");
+		
+		IEntity owner = GetOwner();
+		if (!owner)
+			return;
+		
+		ClearEventMask(owner, EntityEvent.FRAME);
 	}
 }
