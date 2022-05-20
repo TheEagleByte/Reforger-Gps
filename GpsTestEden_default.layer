@@ -1,0 +1,54 @@
+SCR_FactionManager FactionManager_USxUSSR1 : "{589540B35EBA8CDC}Prefabs/MP/Managers/Factions/FactionManager_USxUSSR.et" {
+ coords 4870.062 28.593 11868.708
+ Factions {
+  SCR_Faction "{56B2B46E9AF80999}" {
+   m_bIsPlayable 0
+  }
+ }
+}
+SCR_BaseGameMode GameMode_TeamDeathmatch_Auto1 : "{EF18A4EFB5E667B2}Prefabs/MP/Modes/TeamDeathmatch/GameMode_TeamDeathmatch_Auto.et" {
+ coords 4882.801 28.595 11860.373
+ PlayerControllerPrefab "{7F10915E861F3FC9}Prefabs/Characters/Core/DefaultPlayerControllerMP_Gps.et"
+ m_eTestGameFlags SpawnAI
+}
+SCR_SpawnPoint : "{4FEA25583D0975F7}Prefabs/MP/Spawning/SpawnPoint_USSR.et" {
+ coords 4889.679 28.595 11924.91
+}
+SCR_SpawnPoint : "{5A2220DD0C16958B}Prefabs/MP/Spawning/SpawnPoint_US.et" {
+ coords 4881.627 28.595 11855.346
+}
+SCR_LoadoutManager : "{97EF4C1A41F63DDB}Prefabs/MP/Managers/Loadouts/LoadoutManager_USxUSSR.et" {
+ coords 4884.04 28.595 11859.748
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{56B2B461C7495F41}" {
+   m_sLoadoutResource "{01FA7FAD8B2342E0}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_GL_Gps.et"
+  }
+  SCR_FactionPlayerLoadout "{56B2B461C047DCDA}" {
+   m_sLoadoutResource "{249A390633959EFB}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_LAT_Gps.et"
+  }
+  SCR_FactionPlayerLoadout "{56B2B461C275B309}" {
+   m_sLoadoutResource "{2210740309827E51}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_MG_Gps.et"
+  }
+  SCR_FactionPlayerLoadout "{56B2B461C34A570F}" {
+   m_sLoadoutResource "{8587CCD80FB315E8}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_Gps.et"
+  }
+  SCR_FactionPlayerLoadout "{56B2B4613C48D08E}" {
+   m_sLoadoutResource "{17E7243A79D23857}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Sniper_Gps.et"
+  }
+  SCR_FactionPlayerLoadout "{56B2B4613DCD3341}" {
+   m_sLoadoutResource "{E52B20E6CBC6453C}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_AT_Gps.et"
+  }
+  SCR_FactionPlayerLoadout "{56B2B4613FB900E5}" {
+   m_sLoadoutResource "{646E3882EA911C04}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_GL_Gps.et"
+  }
+  SCR_FactionPlayerLoadout "{56B2B461341EA370}" {
+   m_sLoadoutResource "{4784332C683020B5}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_MG_Gps.et"
+  }
+  SCR_FactionPlayerLoadout "{56B2B46134D39388}" {
+   m_sLoadoutResource "{AB21DE8272777AF1}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Rifleman_Gps.et"
+  }
+  SCR_FactionPlayerLoadout "{56B2B4613581570A}" {
+   m_sLoadoutResource "{DD3945F8B7361573}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Sharpshooter_Gps.et"
+  }
+ }
+}

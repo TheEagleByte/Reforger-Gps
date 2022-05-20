@@ -1,0 +1,22 @@
+SCR_PlayerController : "{6E2BB64764E3BE9B}Prefabs/Characters/Core/DefaultPlayerController.et" {
+ ID "1A9BA6BEFA06E3B1"
+ components {
+  RadioHandlerComponent "{5968EC3E15FD4E7A}" {
+  }
+  SCR_ChatComponent "{5968EC3E15FD4E40}" {
+  }
+  SCR_RespawnComponent "{5968EC3E15FD4E44}" {
+  }
+  SCR_TaskNetworkComponent "{5968EC3E15FD4E4B}" {
+  }
+  RplComponent "{5968EC3E15FD4E4E}" {
+   "Self Insert" 0
+   Streamable Disabled
+  }
+  SCR_Gps "{5968EC3E2B7D7D20}" {
+  }
+ }
+ coords 0 0 0
+ SelfRegister 0
+ DefaultControlledEntity "{8587CCD80FB315E7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_Gps.et"
+}

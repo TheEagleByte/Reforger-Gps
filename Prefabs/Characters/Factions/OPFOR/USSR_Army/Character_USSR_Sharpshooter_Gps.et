@@ -1,0 +1,79 @@
+SCR_ChimeraCharacter : "{5346CF7E39A65A6B}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_USSR_Base.et" {
+ ID "520EC961A090BE1E"
+ components {
+  BaseWeaponManagerComponent "{520EA1D2F659CE5D}" {
+   DefaultWeaponIndex 0
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sharpshooter"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+    IconSetName ""
+    m_Image "{CA21F66986FE4498}UI/Textures/EditorPreviews/Characters/OPFOR/USSR_Army/Character_USSR_Sharpshooter.edds"
+    m_sFaction "USSR"
+    m_aAuthoredLabels + {
+     33
+    }
+    m_aAutoLabels {
+     122 47
+    }
+   }
+  }
+  SCR_GadgetManagerComponent "{520EA1D2DB118DF3}" {
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{66196D85AB93D2BE}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_01_camo.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab ""
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{12C8933903D18885}Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_sharpshooter.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{56607B902B535037}" {
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{E1A5D4B878AA8980}Prefabs/Items/Equipment/Radios/Radio_R148.et"
+     }
+    }
+    ItemsInitConfigurationItem "{54A4D05608012D36}" {
+    }
+    ItemsInitConfigurationItem "{5968EC0BDFD306B8}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_SovietHarness/Variants/Vest_SovietHarness_sharpshooter.et"
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5968EC0BDFD306B0}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_M88.et"
+     PrefabsToSpawn {
+      "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5968EC0BDFD306B2}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_M88.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{575EA58E67448C2A}Prefabs/Items/Equipment/Flashlights/Flashlight_Soviet_01.et"
+     }
+    }
+   }
+  }
+  SCR_Gps "{5968EC0B3CE72F2F}" {
+  }
+ }
+ coords 0 0 0
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{6BC1A05A7E2CA9CD}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_Gps.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

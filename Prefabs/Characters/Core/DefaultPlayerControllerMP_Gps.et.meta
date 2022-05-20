@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{7F10915E861F3FC9}Prefabs/Characters/Core/DefaultPlayerControllerMP_Gps.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

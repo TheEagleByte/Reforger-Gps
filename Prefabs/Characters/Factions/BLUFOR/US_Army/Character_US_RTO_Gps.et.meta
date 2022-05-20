@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{45CA930E4AB12B71}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_RTO_Gps.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

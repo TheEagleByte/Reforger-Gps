@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8587CCD80FB315E8}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman_Gps.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
